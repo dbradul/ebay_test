@@ -1,0 +1,801 @@
+# ------------------------------------------------------------------------------
+# sell_marketing_get_report_tasks
+# ------------------------------------------------------------------------------
+
+[
+  {
+    'record': {
+      'campaign_ids': [
+        '12975917014'
+      ],
+      'date_from': '2022-09-26T00: 00: 00.000Z',
+      'date_to': '2022-10-03T00: 00: 00.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_sold'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': 'EBAY_US',
+      'metric_keys': [
+        'clicks',
+        'sales',
+        'ad_fees',
+        'impressions',
+        'avg_cost_per_sale'
+      ],
+      'report_expiration_date': '2022-11-27T17: 46: 56.000Z',
+      'report_format': 'TSV_GZIP',
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/48335977014',
+      'report_id': '48335977014',
+      'report_name': '48335977014_20221028.tsv.gz',
+      'report_task_completion_date': '2022-10-28T17: 46: 56.000Z',
+      'report_task_creation_date': '2022-10-28T17: 46: 51.000Z',
+      'report_task_expected_completion_date': '2022-10-29T17: 46: 51.000Z',
+      'report_task_id': '48335951014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': 'CAMPAIGN_PERFORMANCE_REPORT'
+    }
+  },
+  {
+    'record': {
+      'campaign_ids': [
+        '12975917014'
+      ],
+      'date_from': '2022-09-01T00: 00: 00.000Z',
+      'date_to': '2022-09-30T00: 00: 00.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_sold'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': 'EBAY_US',
+      'metric_keys': [
+        'clicks',
+        'sales',
+        'ad_fees',
+        'impressions',
+        'avg_cost_per_sale'
+      ],
+      'report_expiration_date': '2022-11-27T14: 18: 44.000Z',
+      'report_format': 'TSV_GZIP',
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/48309187014',
+      'report_id': '48309187014',
+      'report_name': '48309187014_20221028.tsv.gz',
+      'report_task_completion_date': '2022-10-28T14: 18: 44.000Z',
+      'report_task_creation_date': '2022-10-28T14: 17: 48.000Z',
+      'report_task_expected_completion_date': '2022-10-29T14: 17: 48.000Z',
+      'report_task_id': '48309161014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': 'CAMPAIGN_PERFORMANCE_REPORT'
+    }
+  },
+  {
+    'record': {
+      'campaign_ids': [
+        '12975917014'
+      ],
+      'date_from': '2022-09-26T00: 00: 00.000Z',
+      'date_to': '2022-10-03T00: 00: 00.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_sold'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': 'EBAY_US',
+      'metric_keys': [
+        'clicks',
+        'sales',
+        'ad_fees',
+        'impressions',
+        'avg_cost_per_sale'
+      ],
+      'report_expiration_date': '2022-11-26T12: 36: 02.000Z',
+      'report_format': 'TSV_GZIP',
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/48225076014',
+      'report_id': '48225076014',
+      'report_name': '48225076014_20221027.tsv.gz',
+      'report_task_completion_date': '2022-10-27T12: 36: 02.000Z',
+      'report_task_creation_date': '2022-10-27T12: 35: 38.000Z',
+      'report_task_expected_completion_date': '2022-10-28T12: 35: 38.000Z',
+      'report_task_id': '48225050014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': 'CAMPAIGN_PERFORMANCE_REPORT'
+    }
+  },
+  {
+    'record': {
+      'campaign_ids': [
+        '12975917014'
+      ],
+      'date_from': '2022-09-01T00: 00: 00.000Z',
+      'date_to': '2022-09-30T00: 00: 00.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_sold'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': 'EBAY_US',
+      'metric_keys': [
+        'clicks',
+        'sales',
+        'ad_fees',
+        'impressions',
+        'avg_cost_per_sale'
+      ],
+      'report_expiration_date': '2022-11-26T09: 15: 41.000Z',
+      'report_format': 'TSV_GZIP',
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/48215448014',
+      'report_id': '48215448014',
+      'report_name': '48215448014_20221027.tsv.gz',
+      'report_task_completion_date': '2022-10-27T09: 15: 41.000Z',
+      'report_task_creation_date': '2022-10-27T09: 14: 00.000Z',
+      'report_task_expected_completion_date': '2022-10-28T09: 14: 00.000Z',
+      'report_task_id': '48215422014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': 'CAMPAIGN_PERFORMANCE_REPORT'
+    }
+  },
+  {
+    'record': {
+      'campaign_ids': [
+        '12975917014'
+      ],
+      'date_from': '2022-09-01T00: 00: 00.000Z',
+      'date_to': '2022-09-30T00: 00: 00.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_sold'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': 'EBAY_US',
+      'metric_keys': [
+        'clicks',
+        'sales',
+        'ad_fees',
+        'impressions',
+        'avg_cost_per_sale'
+      ],
+      'report_expiration_date': '2022-11-26T08: 37: 28.000Z',
+      'report_format': 'TSV_GZIP',
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/48211273014',
+      'report_id': '48211273014',
+      'report_name': '48211273014_20221027.tsv.gz',
+      'report_task_completion_date': '2022-10-27T08: 37: 28.000Z',
+      'report_task_creation_date': '2022-10-27T08: 37: 17.000Z',
+      'report_task_expected_completion_date': '2022-10-28T08: 37: 17.000Z',
+      'report_task_id': '48211247014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': 'CAMPAIGN_PERFORMANCE_REPORT'
+    }
+  },
+  {
+    'record': {
+      'campaign_ids': [
+        '12975911014',
+        '12975896014',
+        '10305303014',
+        '12975894014',
+        '13016039014',
+        '12975892014',
+        '12975901014',
+        '10337213014',
+        '12975905014',
+        '10350370014',
+        '10305314014',
+        '10305312014',
+        '10315215014',
+        '12975917014',
+        '10305293014',
+        '10310969014',
+        '10305295014',
+        '12975897014',
+        '10609894014',
+        '10305304014',
+        '12975910014',
+        '12975893014',
+        '12975902014',
+        '12975906014',
+        '10350271014',
+        '12975891014',
+        '12975887014',
+        '12975914014',
+        '10305311014',
+        '12975912014'
+      ],
+      'date_from': '2022-09-26T07: 00: 00.000Z',
+      'date_to': '2022-10-03T06: 59: 59.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_available',
+            'listing_start_date',
+            'listing_end_date',
+            'listing_price'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': None,
+      'metric_keys': [
+        'impressions',
+        'clicks',
+        'sales',
+        'conversion_rate',
+        'contribution',
+        'avg_cost_per_sale',
+        'ad_fees',
+        'ads_return_on_spend',
+        'gmv_billing_currency',
+        'organic_clicks',
+        'organic_impressions',
+        'organic_sales',
+        'sales_on_ebay',
+        'sales_off_ebay',
+        'clicks_on_ebay',
+        'clicks_off_ebay',
+        'conversion_rate_on_ebay',
+        'conversion_rate_off_ebay',
+        'sale_amount',
+        'sales_amount_on_ebay',
+        'sales_amount_off_ebay',
+        'ad_fees_on_ebay',
+        'ad_fees_off_ebay'
+      ],
+      'report_expiration_date': '2022-11-06T20: 16: 44.000Z',
+      'report_format': None,
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/46764963014',
+      'report_id': '46764963014',
+      'report_name': 'OEMUnderSinkFilters2_Listing_20221007',
+      'report_task_completion_date': '2022-10-07T20: 16: 44.000Z',
+      'report_task_creation_date': '2022-10-07T20: 16: 09.000Z',
+      'report_task_expected_completion_date': '2022-10-08T20: 16: 09.000Z',
+      'report_task_id': '46764937014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': None
+    }
+  },
+  {
+    'record': {
+      'campaign_ids': [
+        '12975917014'
+      ],
+      'date_from': '2022-09-01T00: 00: 00.000Z',
+      'date_to': '2022-09-30T00: 00: 00.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_sold'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': 'EBAY_US',
+      'metric_keys': [
+        'clicks',
+        'sales',
+        'ad_fees',
+        'impressions',
+        'avg_cost_per_sale'
+      ],
+      'report_expiration_date': '2022-11-06T17: 50: 50.000Z',
+      'report_format': 'TSV_GZIP',
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/46756044014',
+      'report_id': '46756044014',
+      'report_name': '46756044014_20221007.tsv.gz',
+      'report_task_completion_date': '2022-10-07T17: 50: 50.000Z',
+      'report_task_creation_date': '2022-10-07T17: 50: 41.000Z',
+      'report_task_expected_completion_date': '2022-10-08T17: 50: 41.000Z',
+      'report_task_id': '46756018014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': 'CAMPAIGN_PERFORMANCE_REPORT'
+    }
+  },
+  {
+    'record': {
+      'campaign_ids': [
+        '12975917014'
+      ],
+      'date_from': '2022-09-01T00: 00: 00.000Z',
+      'date_to': '2022-09-30T00: 00: 00.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_sold'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': 'EBAY_US',
+      'metric_keys': [
+        'clicks'
+      ],
+      'report_expiration_date': '2022-11-06T16: 39: 31.000Z',
+      'report_format': 'TSV_GZIP',
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/46744385014',
+      'report_id': '46744385014',
+      'report_name': '46744385014_20221007.tsv.gz',
+      'report_task_completion_date': '2022-10-07T16: 39: 31.000Z',
+      'report_task_creation_date': '2022-10-07T16: 39: 22.000Z',
+      'report_task_expected_completion_date': '2022-10-08T16: 39: 22.000Z',
+      'report_task_id': '46744359014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': 'CAMPAIGN_PERFORMANCE_REPORT'
+    }
+  },
+  {
+    'record': {
+      'campaign_ids': [
+        '12975911014',
+        '12975896014',
+        '10305303014',
+        '12975894014',
+        '13016039014',
+        '12975892014',
+        '12975901014',
+        '10337213014',
+        '12975905014',
+        '10350370014',
+        '10305314014',
+        '10305312014',
+        '10315215014',
+        '12975917014',
+        '10305293014',
+        '10310969014',
+        '10305295014',
+        '12975897014',
+        '10609894014',
+        '10305304014',
+        '12975910014',
+        '12975893014',
+        '12975902014',
+        '12975906014',
+        '10350271014',
+        '12975891014',
+        '12975887014',
+        '12975914014',
+        '10305311014',
+        '12975912014'
+      ],
+      'date_from': '2022-10-03T07: 00: 00.000Z',
+      'date_to': '2022-10-05T17: 17: 19.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_available',
+            'listing_start_date',
+            'listing_end_date',
+            'listing_price'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': None,
+      'metric_keys': [
+        'impressions',
+        'clicks',
+        'sales',
+        'conversion_rate',
+        'contribution',
+        'avg_cost_per_sale',
+        'ad_fees',
+        'ads_return_on_spend',
+        'gmv_billing_currency',
+        'organic_clicks',
+        'organic_impressions',
+        'organic_sales',
+        'sales_on_ebay',
+        'sales_off_ebay',
+        'clicks_on_ebay',
+        'clicks_off_ebay',
+        'conversion_rate_on_ebay',
+        'conversion_rate_off_ebay',
+        'sale_amount',
+        'sales_amount_on_ebay',
+        'sales_amount_off_ebay',
+        'ad_fees_on_ebay',
+        'ad_fees_off_ebay'
+      ],
+      'report_expiration_date': '2022-11-04T17: 17: 40.000Z',
+      'report_format': None,
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/46608257014',
+      'report_id': '46608257014',
+      'report_name': 'OEMUnderSinkFilters2_Listing_20221005',
+      'report_task_completion_date': '2022-10-05T17: 17: 40.000Z',
+      'report_task_creation_date': '2022-10-05T17: 17: 19.000Z',
+      'report_task_expected_completion_date': '2022-10-06T17: 17: 19.000Z',
+      'report_task_id': '46608231014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': None
+    }
+  },
+  {
+    'record': {
+      'campaign_ids': [
+        '12975911014',
+        '12975896014',
+        '10305303014',
+        '12975894014',
+        '13016039014',
+        '12975892014',
+        '12975901014',
+        '10337213014',
+        '12975905014',
+        '10350370014',
+        '10305314014',
+        '10305312014',
+        '10315215014',
+        '12975917014',
+        '10305293014',
+        '10310969014',
+        '10305295014',
+        '12975897014',
+        '10609894014',
+        '10305304014',
+        '12975910014',
+        '12975893014',
+        '12975902014',
+        '12975906014',
+        '10350271014',
+        '12975891014',
+        '12975887014',
+        '12975914014',
+        '10305311014',
+        '12975912014'
+      ],
+      'date_from': '2022-10-03T07: 00: 00.000Z',
+      'date_to': '2022-10-05T16: 09: 27.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_available',
+            'listing_start_date',
+            'listing_end_date',
+            'listing_price'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': None,
+      'metric_keys': [
+        'impressions',
+        'clicks',
+        'sales',
+        'conversion_rate',
+        'contribution',
+        'avg_cost_per_sale',
+        'ad_fees',
+        'ads_return_on_spend',
+        'gmv_billing_currency',
+        'organic_clicks',
+        'organic_impressions',
+        'organic_sales',
+        'sales_on_ebay',
+        'sales_off_ebay',
+        'clicks_on_ebay',
+        'clicks_off_ebay',
+        'conversion_rate_on_ebay',
+        'conversion_rate_off_ebay',
+        'sale_amount',
+        'sales_amount_on_ebay',
+        'sales_amount_off_ebay',
+        'ad_fees_on_ebay',
+        'ad_fees_off_ebay'
+      ],
+      'report_expiration_date': '2022-11-04T16: 09: 41.000Z',
+      'report_format': None,
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/46597192014',
+      'report_id': '46597192014',
+      'report_name': 'OEMUnderSinkFilters2_Listing_20221005',
+      'report_task_completion_date': '2022-10-05T16: 09: 41.000Z',
+      'report_task_creation_date': '2022-10-05T16: 09: 27.000Z',
+      'report_task_expected_completion_date': '2022-10-06T16: 09: 27.000Z',
+      'report_task_id': '46597166014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': None
+    }
+  },
+  {
+    'record': {
+      'campaign_ids': [
+        '12975911014',
+        '12975896014',
+        '10305303014',
+        '12975894014',
+        '13016039014',
+        '12975892014',
+        '12975901014',
+        '10337213014',
+        '12975905014',
+        '10350370014',
+        '10305314014',
+        '10305312014',
+        '10315215014',
+        '12975917014',
+        '10305293014',
+        '10310969014',
+        '10305295014',
+        '12975897014',
+        '10609894014',
+        '10305304014',
+        '12975910014',
+        '12975893014',
+        '12975902014',
+        '12975906014',
+        '10350271014',
+        '12975891014',
+        '12975887014',
+        '12975914014',
+        '10305311014',
+        '12975912014'
+      ],
+      'date_from': '2022-10-01T07: 00: 00.000Z',
+      'date_to': '2022-10-05T16: 07: 28.000Z',
+      'dimensions': [
+        {
+          'annotation_keys': [
+            'campaign_name',
+            'campaign_start_date',
+            'campaign_end_date'
+          ],
+          'dimension_key': 'campaign_id'
+        },
+        {
+          'annotation_keys': [
+            'listing_title',
+            'listing_quantity_available',
+            'listing_start_date',
+            'listing_end_date',
+            'listing_price'
+          ],
+          'dimension_key': 'listing_id'
+        }
+      ],
+      'funding_models': None,
+      'inventory_references': None,
+      'listing_ids': None,
+      'marketplace_id': None,
+      'metric_keys': [
+        'impressions',
+        'clicks',
+        'sales',
+        'conversion_rate',
+        'contribution',
+        'avg_cost_per_sale',
+        'ad_fees',
+        'ads_return_on_spend',
+        'gmv_billing_currency',
+        'organic_clicks',
+        'organic_impressions',
+        'organic_sales',
+        'sales_on_ebay',
+        'sales_off_ebay',
+        'clicks_on_ebay',
+        'clicks_off_ebay',
+        'conversion_rate_on_ebay',
+        'conversion_rate_off_ebay',
+        'sale_amount',
+        'sales_amount_on_ebay',
+        'sales_amount_off_ebay',
+        'ad_fees_on_ebay',
+        'ad_fees_off_ebay'
+      ],
+      'report_expiration_date': '2022-11-04T16: 07: 33.000Z',
+      'report_format': None,
+      'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/46596983014',
+      'report_id': '46596983014',
+      'report_name': 'OEMUnderSinkFilters2_Listing_20221005',
+      'report_task_completion_date': '2022-10-05T16: 07: 33.000Z',
+      'report_task_creation_date': '2022-10-05T16: 07: 28.000Z',
+      'report_task_expected_completion_date': '2022-10-06T16: 07: 28.000Z',
+      'report_task_id': '46596957014',
+      'report_task_status': 'SUCCESS',
+      'report_task_status_message': None,
+      'report_type': None
+    }
+  },
+  {
+    'total': {
+      'records_yielded': 11,
+      'records_available': 11
+    }
+  }
+]
+
+
+
+
+# ------------------------------------------------------------------------------
+# sell_marketing_get_report_task
+# ------------------------------------------------------------------------------
+{
+  'campaign_ids': [
+    '12975917014'
+  ],
+  'date_from': '2022-09-26T00: 00: 00.000Z',
+  'date_to': '2022-10-03T00: 00: 00.000Z',
+  'dimensions': [
+    {
+      'annotation_keys': [
+        'campaign_name',
+        'campaign_start_date',
+        'campaign_end_date'
+      ],
+      'dimension_key': 'campaign_id'
+    },
+    {
+      'annotation_keys': [
+        'listing_title',
+        'listing_quantity_sold'
+      ],
+      'dimension_key': 'listing_id'
+    }
+  ],
+  'funding_models': None,
+  'inventory_references': None,
+  'listing_ids': None,
+  'marketplace_id': 'EBAY_US',
+  'metric_keys': [
+    'clicks',
+    'sales',
+    'ad_fees',
+    'impressions',
+    'avg_cost_per_sale'
+  ],
+  'report_expiration_date': '2022-11-27T17: 46: 56.000Z',
+  'report_format': 'TSV_GZIP',
+  'report_href': 'https: //api.ebay.com/sell/marketing/v1/ad_report/48335977014',
+  'report_id': '48335977014',
+  'report_name': '48335977014_20221028.tsv.gz',
+  'report_task_completion_date': '2022-10-28T17: 46: 56.000Z',
+  'report_task_creation_date': '2022-10-28T17: 46: 51.000Z',
+  'report_task_expected_completion_date': '2022-10-29T17: 46: 51.000Z',
+  'report_task_id': '48335951014',
+  'report_task_status': 'SUCCESS',
+  'report_task_status_message': None,
+  'report_type': 'CAMPAIGN_PERFORMANCE_REPORT'
+}
